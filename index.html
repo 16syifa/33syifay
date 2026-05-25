@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+
+  <meta charset="UTF-8" />
+
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1.0" />
+
+  <title>Syifa Gallery</title>
+
+  <link rel="stylesheet" href="style.css" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+  <!-- HERO -->
+  <header class="hero">
+
+    <nav>
+
+      <h2 class="logo">Syifa Gallery</h2>
+
+      <ul>
+        <li><a href="#tentang">Tentang</a></li>
+        <li><a href="#perjalanan">Perjalanan</a></li>
+        <li><a href="#galeri">Galeri</a></li>
+        <li><a href="#video">Video</a></li>
+        <li><a href="#maps">Lokasi</a></li>
+        <li><a href="#kontak">Kontak</a></li>
+      </ul>
+
+      <!-- LOGIN -->
+      <div class="auth-area">
+
+        <p id="userInfo">
+          Belum login
+        </p>
+
+        <div id="authArea">
+
+          <button onclick="goLogin()" class="nav-cta">
+            Login
+          </button>
+
+        </div>
+
+      </div>
+
+    </nav>
+
+    <!-- HERO CONTENT -->
+    <div class="hero-content">
+
+      <h1>
+        Menjelajahi Alam Dengan Cerita dan Kenangan
+      </h1>
+
+      <p>
+        Selamat datang di website pribadi Syifa.
+        Tempat berbagi perjalanan, galeri foto,
+        dan momen indah selama menjelajahi alam.
+      </p>
+
+      <button onclick="welcomeAlert()" class="btn">
+        Jelajahi Sekarang
+      </button>
+
+    </div>
+
+  </header>
+
+  <!-- TENTANG -->
+  <section id="tentang" class="about fade-up">
+
+    <div class="container">
+
+      <h2>Tentang Syifa</h2>
+
+      <p>
+        Halo semuanya! Aku Syifa, seorang pecinta alam
+        yang suka menjelajahi gunung, menikmati sunset,
+        camping, dan mengabadikan setiap perjalanan
+        menjadi kenangan yang indah.
+      </p>
+
+    </div>
+
+  </section>
+
+  <!-- PERJALANAN -->
+  <section id="perjalanan" class="journey fade-up">
+
+    <div class="container">
+
+      <h2>Perjalanan Favorit</h2>
+
+      <div class="cards">
+
+        <div class="card">
+
+          <img src="images/merbabu.jpg" alt="Merbabu">
+
+          <h3>Gunung Merbabu</h3>
+
+          <p>
+            Menikmati savana indah dan sunrise yang menenangkan.
+          </p>
+
+        </div>
+
+        <div class="card">
+
+          <img src="images/kali.jpg" alt="Prau">
+
+          <h3>Kalitalang</h3>
+
+          <p>
+            Tempat terbaik untuk melihat golden sunrise.
+          </p>
+
+        </div>
+
+        <div class="card">
+
+          <img src="images/andong.jpg" alt="Sumbing">
+
+          <h3>Gunung Andong</h3>
+
+          <p>
+            Perjalanan penuh tantangan dengan pemandangan luar biasa.
+          </p>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- GALERI -->
+  <section id="galeri" class="gallery fade-up">
+
+    <div class="container">
+
+      <h2>Galeri Syifa</h2>
+
+      <div class="gallery-grid">
+
+        <img src="images/gallery1.jpeg" alt="Galeri">
+
+        <img src="images/gallery2.jpeg" alt="Galeri">
+
+        <img src="images/gallery3.jpeg" alt="Galeri">
+
+        <img src="images/gallery4.jpeg" alt="Galeri">
+
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- VIDEO -->
+  <section id="video" class="video-section fade-up">
+
+    <div class="container">
+
+      <h2>Video Perjalanan</h2>
+
+      <iframe width="972" height="547" src="https://www.youtube.com/embed/WkEpw5r_SjQ"
+title="*Eps.1* - *Teori Bumi Datar* - Mengapa Kian Banyak yang Percaya Bumi itu
+DATAR ?" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encryptedmedia; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-crossorigin" allowfullscreen></iframe> 
+
+    </div>
+
+  </section>
+
+  <!-- MAPS -->
+  <section id="maps" class="map-section fade-up">
+
+    <div class="container">
+
+      <h2>Lokasi Favorit</h2>
+
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!
+1d3952.899581696843!2d110.3928100740499!3d-7.800455306955081!2m3!1f0!2f0!3f0!
+3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7a57669d43fe55%3A0x75fae1bb400d4da5!
+2sSMA%20Negeri%208%20Yogyakarta!5e0!3m2!1sen!2sid!4v1778126595811!5m2!1sen!
+2sid" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+referrerpolicy="no-referrer-when-downgrade"></iframe> 
+
+    </div>
+
+  </section>
+
+  <!-- QUOTE -->
+  <section class="quote fade-up">
+
+    <div class="container">
+
+      <h2>
+        “Karena setiap perjalanan selalu memiliki cerita.”
+      </h2>
+
+    </div>
+
+  </section>
+
+  <!-- FOOTER -->
+  <footer id="kontak">
+
+    <h2>Kontak Syifa</h2>
+
+    <p>
+      Instagram • TikTok • Discord
+    </p>
+
+    <p class="copy">
+      © 2026 Syifa Gallery
+    </p>
+
+  </footer>
+
+  <!-- SCRIPT -->
+  <script src="script.js"></script>
+  <script src="js/welcome.js"></script>
+
+</body>
+</html>
